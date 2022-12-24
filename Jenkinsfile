@@ -18,8 +18,8 @@ pipeline {
                 echo "Testing.."
                 sh '''
                 cd myapp
-                python hello.py
-                python hello.py --name=Mike
+                python3 hello.py
+                python3 hello.py --name=Mike
                 '''
             }
         }
@@ -32,5 +32,4 @@ pipeline {
             }
         }
     }
-    
 }
